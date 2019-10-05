@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ExperimentsRunner.Experiments\ExperimentsRunner.Experiments.csproj" />
+    <ProjectReference Include="..\src\ExperimentsRunner.Core\ExperimentsRunner.Core.csproj" />
+  </ItemGroup>
+
+</Project>
